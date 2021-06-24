@@ -1,5 +1,5 @@
 {% set name = "types-pathlib2" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.6" %
 
 
 package:
@@ -24,7 +24,7 @@ requirements:
 
 test:
   commands:
-    - test -f $SP_DIR/pathlib2-stubs/__init__.pyi
+    - test -f $SP_DIR/pathlib2-python2-stubs/__init__.pyi
 
 
 about:
