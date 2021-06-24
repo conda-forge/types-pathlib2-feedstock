@@ -1,5 +1,5 @@
 {% set name = "types-pathlib2" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-pathlib2-{{ version }}.tar.gz
-  sha256: d147f53103f3701937c5edf1912eab407deb87e56a38fb0fd3fe10fdb7da819d
+  sha256: fb8c4ff45082578b7db1721c21ce1d3ff61a238d6cb99d30532d4a7ed74d8fa1
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
 
 test:
   commands:
-    - test -f $SP_DIR/pathlib2-stubs/__init__.pyi
+    - test -f $SP_DIR/pathlib2-python2-stubs/__init__.pyi
 
 
 about:
